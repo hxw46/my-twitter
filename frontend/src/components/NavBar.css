@@ -1,0 +1,42 @@
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.left-component {
+    margin: auto 20px;
+    font-size: 25px;
+}
+
+.right-component {
+    display: flex;
+}
+
+.navbar-button {
+    margin: auto 20px;
+}
+
+a {
+    all: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.white-text {
+    color: white;
+}
+
+.twitter-font {
+    font-family: Arial, Helvetica, sans-serif;
+}

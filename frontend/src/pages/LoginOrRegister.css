@@ -1,0 +1,38 @@
+.error {
+    color: red;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+}
+
+.asterisk {
+    color: rgb(41, 40, 40);
+}
+
+.login-register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+
+.title {
+    margin: auto;
+    padding: 20px;
+}
+
+.login-register-contents {
+    margin: auto;
+}
+
+.input-row {
+    margin: 15px;
+}
+
+.password-span {
+    margin-right: 3px;
+}
+
+.tag-span {
+    margin-right: 12px;
+}

@@ -1,0 +1,57 @@
+.post-container {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 10px;
+    max-height: 100px;
+    width: 500px;
+    padding: 15px;
+    line-height: 2;
+    color: #141414;
+    background-color: white;
+}
+
+a {
+    all: unset;
+}
+
+.first-row-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-row:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.faicon {
+    color: "#1c1c1c";
+    margin: 3px;
+}
+
+.tweet-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.submit-button {
+    width: fit-content;
+    height: fit-content;
+    background-color: #1b9ae9;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.submit-button:hover {
+    color: #1b9ae9;
+    background-color: white;
+    border: 2px solid #1b9ae9;
+}
+
+.division-dot {
+    margin: 0px 3px;
+}

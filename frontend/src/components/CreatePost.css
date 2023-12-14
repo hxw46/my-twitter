@@ -1,0 +1,55 @@
+.create-post-container {
+    width: 500px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.update-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    width: 400px;
+    margin: auto;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.submit-tweet-button {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 10px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #1b9ae9;
+}
+
+.submit-tweet-button:hover {
+    color: #1b9ae9;
+    border: 2px solid #1b9dee;
+    background-color: white;
+}
+
+.post-and-error-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.error-message {
+    margin: auto;
+    margin-top: 7px;
+    color: red;
+    font-size: 14px;
+}
